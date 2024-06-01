@@ -1,0 +1,138 @@
+.iconJamIconsFilledCi,
+.iconJamIconsFilledCi1,
+.iconJamIconsFilledCi2 {
+  height: 10px;
+  width: 10px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 10px;
+}
+.circles {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-461xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.iconJamIconsOutlineL,
+.iconJamIconsOutlineL1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.arrows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 0 0 var(--padding-448xl);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.feature {
+  position: relative;
+  line-height: 17px;
+  display: inline-block;
+  min-width: 65px;
+}
+.addressBar,
+.topBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.addressBar {
+  width: 44.99%;
+  margin: 0 !important;
+  position: absolute;
+  top: 8px;
+  right: 27.42%;
+  left: 27.59%;
+  border-radius: var(--br-8xs);
+  background-color: var(--blue-gray-100);
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-xl) var(--padding-9xs)
+    var(--padding-2xl);
+  z-index: 1;
+}
+.topBar {
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  position: relative;
+  gap: var(--gap-9xl);
+}
+.desktopAppPlaceholder1Icon,
+.screendesktop {
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.desktopAppPlaceholder1Icon {
+  align-self: stretch;
+  height: 661px;
+  position: relative;
+}
+.screendesktop {
+  width: 1100px;
+  box-shadow: var(--shadow-dark-xxl);
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.screendesktopWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-xs-size);
+  color: var(--blue-gray-400);
+  font-family: var(--body-xs);
+}
+@media screen and (max-width: 1250px) {
+  .topBar {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .arrows,
+  .circles {
+    box-sizing: border-box;
+  }
+  .circles {
+    flex-wrap: wrap;
+    padding-right: var(--padding-221xl);
+  }
+  .arrows {
+    padding-left: var(--padding-214xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .arrows,
+  .circles {
+    box-sizing: border-box;
+  }
+  .circles {
+    padding-right: var(--padding-xl);
+  }
+  .arrows {
+    padding-left: var(--padding-xl);
+  }
+}
